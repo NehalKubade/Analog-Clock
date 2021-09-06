@@ -6,7 +6,7 @@ body {
   }
   
   img {
-    height: 120px;
+    height: 125px;
   }
   
   .clockContainer {
@@ -49,3 +49,7 @@ body {
     opacity: 0.8;
   }
   
+  @media(max-width: 425px){
+    .img{display: none;}
+    .clockContainer {margin-top:3px ;}
+  }
